@@ -15,7 +15,7 @@ spec:
    
   destination:
     server: https://kubernetes.default.svc
-    namespace: geocentric-model
+    namespace: test-app
   syncPolicy:
     syncOptions:
       - CreateNamespace=true  
